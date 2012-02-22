@@ -1,0 +1,58 @@
+Note: see end of file for information on extra credit.
+
+==Introduction==
+
+Welcome to Chess.
+
+Well, not quite chess. It lacks a few features:
+- complete check and checkmate detecting
+- castling
+- en passant
+
+Other than that it's Chess though. In this game we pit an UPPER CASE team 
+against a lower case team. UPPER CASE goes first, playing the traditional 
+role of White, while lower case plays black.
+
+Each player may either be human controlled or may be a computer choosing 
+moves at random.
+
+Have at it.
+
+==Implementation Details==
+
+The code is broken into two main sections: Pieces and Players. Pieces 
+contains the details for all of the different kinds of chess pieces, 
+in addition to the chessboard and the individual squares on the board as well. 
+
+Players contains the model for the Game as well as the Players. Player 
+is an abstract class that simply asks that its children implement a 
+method to generate moves.
+
+There are two minor helper classes as well. An IntTuple is simply a container
+for two integers used to represent a coordinate on the board. A Move contains 
+a Piece* and an IntTuple*.
+
+==Test Cases==
+There are only four kinds of games that can be played:
+- White Human, Black Human
+- White Human, Black Random
+- White Random, Black Human
+- White Random, Black Random
+
+Whether each player is human or not is determined at the outset by entering 'y' for a human player and anything else for a random player.
+
+Any of these combinations should allow a game to be played to its conclusion. Nothing else need be done.
+
+==Sample runs==
+See enclosed text files ran_v_ran for a sample of a game between two random players and hum_v_ran for a game between a human and a random player.
+
+==EXTRA CREDIT==
+It is indeed possible to script a human vs human game with a text file. 
+Simply pipe in the file when running the program, subject to the following
+instructions:
+- The first two lines should consist solely of the character 'y'
+- The last line should be the word 'quit'.
+- Each line should be a move in the same format required in interactive mode, with moves being [a-h][1-8] [a-h][1-8].
+
+See the attached file 'extracreditrun' for an example.
+

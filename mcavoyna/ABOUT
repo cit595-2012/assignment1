@@ -1,0 +1,10 @@
+Name: Nick McAvoy
+
+Something good about my implementation: My object-oriented model for a player.
+Player is just a virtual class that specifies a virtual method "getMove." So
+the "HumanPlayer" and "RandomPlayer" classes used the same interface, and it
+was really easy to plug in different combinations of them.
+
+Something bad about my implementation: There's a nasty memory leak which I 
+wasn't able to get to the bottom of.
+

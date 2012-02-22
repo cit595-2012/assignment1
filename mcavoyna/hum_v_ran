@@ -1,0 +1,86 @@
+Enter 'y' if the UPPER CASE (White) team should be human.
+y
+Human it is!
+Enter 'y' if the lower case (Black) team should be human.
+n
+Very well then, a computer player.
+   a b c d e f g h
+   ----------------
+8 |r|n|b|q|k|b|n|r| 8
+7 |p|p|p|p|p|p|p|p| 7
+6 | | | | | | | | | 6
+5 | | | | | | | | | 5
+4 | | | | | | | | | 4
+3 | | | | | | | | | 3
+2 |P|P|P|P|P|P|P|P| 2
+1 |R|N|B|K|Q|B|N|R| 1
+   ----------------
+   a b c d e f g h
+Please enter a move in the form [a-h][1-8] [a-h][1-8].
+b1 c3
+   a b c d e f g h
+   ----------------
+8 |r|n|b|q|k|b|n|r| 8
+7 |p|p|p|p|p|p|p|p| 7
+6 | | | | | | | | | 6
+5 | | | | | | | | | 5
+4 | | | | | | | | | 4
+3 | | |N| | | | | | 3
+2 |P|P|P|P|P|P|P|P| 2
+1 |R| |B|K|Q|B|N|R| 1
+   ----------------
+   a b c d e f g h
+   a b c d e f g h
+   ----------------
+8 |r|n|b|q|k|b|n|r| 8
+7 |p|p|p| |p|p|p|p| 7
+6 | | | | | | | | | 6
+5 | | | |p| | | | | 5
+4 | | | | | | | | | 4
+3 | | |N| | | | | | 3
+2 |P|P|P|P|P|P|P|P| 2
+1 |R| |B|K|Q|B|N|R| 1
+   ----------------
+   a b c d e f g h
+Please enter a move in the form [a-h][1-8] [a-h][1-8].
+c3 d5
+   a b c d e f g h
+   ----------------
+8 |r|n|b|q|k|b|n|r| 8
+7 |p|p|p| |p|p|p|p| 7
+6 | | | | | | | | | 6
+5 | | | |N| | | | | 5
+4 | | | | | | | | | 4
+3 | | | | | | | | | 3
+2 |P|P|P|P|P|P|P|P| 2
+1 |R| |B|K|Q|B|N|R| 1
+   ----------------
+   a b c d e f g h
+   a b c d e f g h
+   ----------------
+8 |r|n|b|q|k|b| |r| 8
+7 |p|p|p| |p|p|p|p| 7
+6 | | | | | |n| | | 6
+5 | | | |N| | | | | 5
+4 | | | | | | | | | 4
+3 | | | | | | | | | 3
+2 |P|P|P|P|P|P|P|P| 2
+1 |R| |B|K|Q|B|N|R| 1
+   ----------------
+   a b c d e f g h
+Please enter a move in the form [a-h][1-8] [a-h][1-8].
+d5 f6
+Upper case wins.
+   a b c d e f g h
+   ----------------
+8 |r|n|b|q|k|b| |r| 8
+7 |p|p|p| |p|p|p|p| 7
+6 | | | | | |N| | | 6
+5 | | | | | | | | | 5
+4 | | | | | | | | | 4
+3 | | | | | | | | | 3
+2 |P|P|P|P|P|P|P|P| 2
+1 |R| |B|K|Q|B|N|R| 1
+   ----------------
+   a b c d e f g h
+
